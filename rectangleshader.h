@@ -1,0 +1,4 @@
+#ifndef RECTANGLESHADER_H
+#define RECTANGLESHADER_H
+
+#endif

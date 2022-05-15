@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\compositor">
+      <UniqueIdentifier>{0199a318-ed87-46d5-b8f3-3cfb7c1ad4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\compositor">
+      <UniqueIdentifier>{8bb63db8-6401-42aa-ad03-fbbab98ed281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3d">
+      <UniqueIdentifier>{10900350-bc49-451d-8089-876e75c4dbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3d">
+      <UniqueIdentifier>{e8f26142-fa04-48a4-a821-c4af2b455530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2d">
+      <UniqueIdentifier>{3e78deb5-3052-452b-b23a-972ca6baadbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2d">
+      <UniqueIdentifier>{e96b1bd2-4ff4-4c2c-ba1e-9f2e76f69117}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ocgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compositor.cpp">
+      <Filter>Source Files\compositor</Filter>
+    </ClCompile>
+    <ClCompile Include="renderlayer.cpp">
+      <Filter>Source Files\compositor</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compositor.h">
+      <Filter>Header Files\compositor</Filter>
+    </ClInclude>
+    <ClInclude Include="renderlayer.h">
+      <Filter>Header Files\compositor</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>Header Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable2d.h">
+      <Filter>Header Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d.h">
+      <Filter>Header Files\2d</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
